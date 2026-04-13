@@ -1,0 +1,22 @@
+#!/bin/bash
+python ./generate.py \
+--gen_num 1000 \
+--seed 43 \
+--resume /home/tree/Work_area/AMP_Design_Github/output_dir \
+--model DAMP_B_768 \
+--data_path /home/tree/Work_area/AMP_Design_Github/Data \
+--epochs 100 \
+--warmup_epochs 10 \
+--pin_mem \
+--batch_size 120 \
+--lr 1e-4 \
+--t_eps 1e-4 \
+--num_sampling_steps 100 \
+--interval_min 0 \
+--interval_max 1 \
+--cfg_phychem 0 \
+--cfg_family 0 \
+--noise_scale 1 \
+--min_lr 1e-6 \
+--lr_schedule cosine \
+--save_last_freq 20
