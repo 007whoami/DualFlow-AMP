@@ -244,7 +244,7 @@ For major changes, please open an issue first to discuss your proposed modificat
 ## Contact
 
 For questions, bug reports, or collaboration inquiries:
-- Email: 17309259260@163.com
+- Email: liu_jun_root@163.com
 ---
 
 ## Acknowledgments
